@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+
+/* overriding antd */
+
+input {
+    border-radius: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.575) !important;
+    height: 40px !important;
+}
+
+input :focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid gray !important;
+}
+
+label {
+    font-size: 16px !important;
+    color: black !important;
+}
+
+.ant-form-item {
+    margin: 10px 0 !important;
+}
+
+.ant-picker-input input {
+    border: none !important;
+}
+
+.ant-picker {
+    border-radius: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.575) !important;
+    height: 40px !important;
+}
+
+/* Common styling */
+/*  will be used for all the pages */
+
+.spinner-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.366);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.spinner-border {
+    width: 4rem;
+    height: 4rem;
+    color: rgb(43, 67, 226) !important;
+}
+
+.page-title {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.785);
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.581);
+    margin: 2px;
+    padding: 0;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.normal-text {
+    font-size: 1rem;
+}
+
+.card {
+    box-shadow: 0 0 2px grey;
+    border-radius: 0 !important;
+    
+}
+
+.primary-button {
+    background-color: teal !important;
+    border-color: darkcyan !important ;
+    height: 40px !important;
+    width: max-content !important;
+    color: white !important;
+    font-size: 17px !important;
+}
+
+.full-width-button {
+    width: 100% !important;
+}
+
+.anchor {
+    color: black !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+    font-size: 15px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* authentication pages */
+
+.authentication {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.authentication-form {
+    width: 400px;
+}
+
+.authentication .card-title {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    background-color: rgb(126, 160, 80) !important;
+    max-width: max-content !important;
+    padding: 6px 15px !important;
+    margin-left: -35px ;
+    border-bottom-left-radius: 12px;
+}
+
